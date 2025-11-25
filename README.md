@@ -59,7 +59,7 @@ Particles spawn wherever the user drags the mouse, move with random velocities, 
 #### 1. Particle Creation
 
 Particles are added to an array whenever the mouse is dragged:
-<pre>```js // particle.push(new Particle(mouseX, mouseY)); ```</pre>
+<pre> particle.push(new Particle(mouseX, mouseY)); </pre>
 
 #### 2. Particle Motion
 
@@ -73,14 +73,14 @@ Each particle updates itself every frame using:
 #### 3. Fading
 
 Every frame:
-<pre>```js // this.age -= 1; ```</pre>
+<pre>this.age -= 1;</pre>
 The age value becomes the alpha (transparency) in the particle’s color.
 
 #### 4. Reset Button
 A p5.js button calls:
-<pre>```js // function buttonPressed() {
+<pre>function buttonPressed() {
     particle = [];
-} ```</pre>
+}</pre>
 
 ## Screenshot
 ![Particles](https://github.com/user-attachments/assets/6d2da000-f4ad-43a3-a264-f8aeb7405e7a)
