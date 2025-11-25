@@ -47,4 +47,5 @@ A loop generates 100 Pattern instances and stores them in an array.
 In the `draw()` loop, each one updates and draws independently, producing complex, organic visuals.
 
 ### Screenshot
-<img width="800" height="490" alt="image" src="https://github.com/user-attachments/assets/205db8fb-ac56-4631-848c-3b8f39ff0ce4" />
+![ezgif-6d9cef8ce1de0384](https://github.com/user-attachments/assets/5964e5c2-cdb1-43f4-a10d-22a183ca4c78)
+
