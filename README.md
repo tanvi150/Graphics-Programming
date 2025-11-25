@@ -84,3 +84,18 @@ A p5.js button calls:
 
 ## Screenshot
 ![Particles](https://github.com/user-attachments/assets/6d2da000-f4ad-43a3-a264-f8aeb7405e7a)
+
+## 3. Particles with Collision Detection
+A simple interactive particle simulation built with p5.js, demonstrating particle physics, gravity, friction, and collision detection with a central box.
+
+Particles are created by dragging the mouse, fall under gravity, and change color when they pass through a red box in the center of the canvas.
+
+### How to Use
+- Click and drag the mouse to generate particles.
+
+- Watch particles fall, interact with the box, and change color when passing through.
+
+- Click Clear Particles button to remove all existing particles and start fresh.
+
+### Screenshot
+![Particles with Collision Detection](https://github.com/user-attachments/assets/f3cbce5b-f352-43d2-83ad-3663fb0dbc4e)
