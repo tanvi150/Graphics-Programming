@@ -49,3 +49,38 @@ In the `draw()` loop, each one updates and draws independently, producing comple
 ### Screenshot
 ![ezgif-6d9cef8ce1de0384](https://github.com/user-attachments/assets/5964e5c2-cdb1-43f4-a10d-22a183ca4c78)
 
+## 2. Particles
+
+This project is an interactive particle system built with p5.js. 
+Particles spawn wherever the user drags the mouse, move with random velocities, bounce off canvas edges, fade out over time, and can be cleared with a button press.
+
+### How It Works
+
+#### 1. Particle Creation
+
+Particles are added to an array whenever the mouse is dragged:
+<pre>```js // particle.push(new Particle(mouseX, mouseY)); ```</pre>
+
+#### 2. Particle Motion
+
+Each particle updates itself every frame using:
+- `velocity.add(acceleration)`
+
+- `velocity.mult(friction)`
+
+- `location.add(velocity)`
+
+#### 3. Fading
+
+Every frame:
+<pre>```js // this.age -= 1; ```</pre>
+The age value becomes the alpha (transparency) in the particle’s color.
+
+#### 4. Reset Button
+A p5.js button calls:
+<pre>```js // function buttonPressed() {
+    particle = [];
+} ```</pre>
+
+## Screenshot
+![Particles](https://github.com/user-attachments/assets/6d2da000-f4ad-43a3-a264-f8aeb7405e7a)
